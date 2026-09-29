@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Raj Roti serves freshly made Trinidad-style roti, packed with rich curry and real island flavour." />
+    <meta name="theme-color" content="#0b0b09" />
+    <title>Raj Roti | Freshly Made. Hot &amp; Tasty.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0b09'/%3E%3Cpath d='M14 20h18c12 0 18 5 18 14 0 8-5 12-13 13l13 9H35L22 46v10H14zm8 8v10h10c6 0 9-2 9-5s-3-5-9-5z' fill='%23ffc514'/%3E%3Cpath d='M10 10h44l-7 7H17z' fill='%23ef2028'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Raj Roti home">
+        <img src="assets/raj-roti-logo.png" alt="" />
+        <span>Raj Roti</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
+        <a href="#menu">The menu</a>
+        <a href="history.html">Chef Raj’s story</a>
+        <a class="nav-cta" href="#visit">Find us</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-media" role="img" aria-label="A freshly made curry roti served at a colourful Caribbean market stall"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> Trini roti, made right</p>
+          <h1 id="hero-title">BIG FLAVOUR.<br /><em>NO SHORTCUTS.</em></h1>
+          <p class="hero-copy">Soft, flaky roti wrapped around slow-cooked curry, hearty fillings and the kind of pepper that keeps you coming back.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#menu">See what’s cooking</a>
+            <a class="text-link" href="#story">Why ours hits different <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-stamp" aria-label="Freshly made, hot and tasty">
+          <span>Freshly made</span>
+          <strong>HOT &amp;<br />TASTY</strong>
+        </div>
+        <p class="hero-side-note" aria-hidden="true">GOOD FOOD · GOOD VIBES ·</p>
+      </section>
+
+      <section class="marquee" aria-label="Raj Roti highlights">
+        <div class="marquee-track">
+          <span>Fresh roti</span><b>✦</b><span>Rich curry</span><b>✦</b><span>Real Trini flavour</span><b>✦</b>
+          <span aria-hidden="true">Fresh roti</span><b aria-hidden="true">✦</b><span aria-hidden="true">Rich curry</span><b aria-hidden="true">✦</b><span aria-hidden="true">Real Trini flavour</span><b aria-hidden="true">✦</b>
+        </div>
+      </section>
+
+      <section class="menu-section section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow dark"><span></span> Pick your favourite</p>
+            <h2 id="menu-title">THE GOOD STUFF.</h2>
+          </div>
+          <p>Every roti comes wrapped with curry potato and channa. Choose your filling, then make it yours.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card menu-card-featured reveal">
+            <img src="assets/roti-chicken.jpg" alt="Chicken curry roti cut open to show the filling" />
+            <div class="card-scrim"></div>
+            <div class="card-number">01</div>
+            <div class="card-content">
+              <p class="card-kicker">Crowd favourite</p>
+              <h3>Chicken<br />Roti</h3>
+              <p>Tender curry chicken, potato and channa wrapped in soft, flaky dhalpuri.</p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="assets/roti-goat.jpg" alt="A curry roti filled with rich meat, potato and channa" />
+            <div class="card-scrim"></div>
+            <div class="card-number">02</div>
+            <div class="card-content">
+              <p class="card-kicker">Deep &amp; savoury</p>
+              <h3>Goat<br />Roti</h3>
+              <p>Slow-cooked curry goat with bold spice and a proper, satisfying finish.</p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="assets/roti-beef.jpg" alt="A warm curry roti folded around a hearty filling" />
+            <div class="card-scrim"></div>
+            <div class="card-number">03</div>
+            <div class="card-content">
+              <p class="card-kicker">Rich &amp; hearty</p>
+              <h3>Beef<br />Roti</h3>
+              <p>Comforting curry beef, seasoned through and folded into every generous bite.</p>
+            </div>
+          </article>
+
+          <article class="menu-card menu-card-type reveal">
+            <div class="type-card-inner">
+              <span class="pepper-mark" aria-hidden="true">✦</span>
+              <p class="card-kicker">Also on the board</p>
+              <h3>DUCK<br />ROTI</h3>
+              <p>Big, aromatic curry flavour for the people who know.</p>
+              <a class="text-link dark-link" href="#visit">Get the latest menu <span aria-hidden="true">↓</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="story-section section" id="story" aria-labelledby="story-title">
+        <div class="story-image reveal">
+          <img src="assets/roti-wrap.jpg" alt="Fresh roti folded by hand on a preparation board" />
+          <span class="image-tag">Made fresh</span>
+        </div>
+        <div class="story-copy reveal">
+          <p class="eyebrow"><span></span> The Raj Roti way</p>
+          <h2 id="story-title">ROOTED IN TRINI FLAVOUR.</h2>
+          <p class="story-lead">The kind of roti that needs two hands, extra napkins and absolutely no introduction.</p>
+          <p>We bring together soft dhalpuri, home-style curry and hearty fillings for a meal that feels familiar from the very first bite. No fuss. Just good food, made hot and served with real island warmth.</p>
+          <ul class="quality-list" aria-label="What makes Raj Roti special">
+            <li><span>01</span><strong>Freshly made</strong><small>Soft roti and hot fillings, prepared with care.</small></li>
+            <li><span>02</span><strong>Properly seasoned</strong><small>Bold curry, balanced spice and deep flavour.</small></li>
+            <li><span>03</span><strong>Generously filled</strong><small>A full meal in every wrap.</small></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="quote-band" aria-label="Brand promise">
+        <p>“IF THE ROTI EH <em>GOOD,</em><br />THE VIBES CYAH <em>RIGHT.</em>”</p>
+      </section>
+
+      <section class="visit-section section" id="visit" aria-labelledby="visit-title">
+        <div class="visit-art reveal">
+          <img src="assets/raj-roti-logo.png" alt="Raj Roti" />
+        </div>
+        <div class="visit-copy reveal">
+          <p class="eyebrow dark"><span></span> Come hungry</p>
+          <h2 id="visit-title">YOUR NEXT ROTI IS WAITING.</h2>
+          <p>Follow Raj Roti for today’s menu, pickup details and the next fresh batch. Chicken, duck, goat or beef—there’s a favourite here with your name on it.</p>
+          <div class="visit-note">
+            <span>Find the food sheds</span>
+            <strong>Palmiste Park, San Fernando</strong>
+          </div>
+          <div class="visit-actions">
+            <a class="button button-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Palmiste+Park+food+sheds+San+Fernando+Trinidad" target="_blank" rel="noopener">Open in Maps</a>
+            <a class="text-link dark-link" href="history.html">Meet Chef Raj <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">RAJ ROTI<span>®</span></div>
+      <p>Freshly made · Hot &amp; tasty</p>
+      <p>© <span data-year></span> Raj Roti</p>
+    </footer>
+  </body>
+</html>
