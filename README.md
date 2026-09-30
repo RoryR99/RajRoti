@@ -1,14 +1,14 @@
 # Raj Roti website
 
-The deployable website is in [`dist`](dist). It uses plain HTML, CSS, JavaScript, and image assets, so no build command is required.
+The GitHub Pages website is published directly from the repository root. The original Sites-compatible copy remains in [`dist`](dist).
 
 ## Deploy with GitHub Pages
 
 1. Create a GitHub repository and push this project to its `main` branch.
 2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions** as the source.
-4. Run **Deploy Raj Roti to GitHub Pages** from the Actions tab, or push another commit to `main`.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/ (root)` folder.
 
-The included workflow publishes only the contents of `dist`, and future pushes to `main` deploy automatically.
+Future pushes to `main` deploy automatically through GitHub's branch-based Pages workflow.
 
 The site uses relative asset and page links, so it works from a project URL such as `https://username.github.io/repository-name/` without additional path configuration.
