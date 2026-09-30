@@ -105,14 +105,12 @@ h2 { font-size: clamp(4rem, 8vw, 8.2rem); }
 .visit-art img { position: relative; width: min(95%, 520px); filter: drop-shadow(0 20px 20px rgba(0,0,0,.24)); transform: rotate(-3deg); }
 .visit-copy h2 { max-width: 830px; font-size: clamp(4rem,8vw,8.8rem); }
 .visit-copy > p:not(.eyebrow) { max-width: 680px; font-size: 1.08rem; line-height: 1.75; }
-.visit-note { display: flex; align-items: center; gap: 1.2rem; margin: 2rem 0; padding: 1rem 0; border-block: 1px solid rgba(20,19,15,.2); }
-.visit-note span { color: #8d1a1f; font-family: var(--condensed); font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
-.visit-address { display: grid; gap: .18rem; }
-.visit-note strong { font-size: .95rem; }
-.visit-note small { color: rgba(20,19,15,.65); font-size: .78rem; letter-spacing: .04em; }
-.mini-map { position: relative; width: min(100%, 640px); height: 250px; margin: 0 0 1.5rem; overflow: hidden; border: 4px solid var(--black); box-shadow: 10px 10px 0 var(--yellow); background: var(--black-soft); }
+.visit-note { margin: 2rem 0; padding: 1.15rem 0; border-block: 1px solid rgba(20,19,15,.2); text-align: center; }
+.visit-note strong { display: block; color: #8d1a1f; font-family: var(--condensed); font-size: clamp(1.2rem, 2vw, 1.55rem); font-weight: 900; letter-spacing: .07em; line-height: 1.15; text-transform: uppercase; }
+.mini-map { position: relative; width: min(100%, 640px); height: 280px; margin: 0 auto 1.75rem; overflow: hidden; border: 4px solid var(--black); box-shadow: 10px 10px 0 var(--yellow); background: var(--black-soft); }
 .mini-map iframe { width: 100%; height: 100%; border: 0; filter: saturate(.88) contrast(1.03); }
-.visit-actions { display: flex; align-items: center; gap: 1.5rem; }
+.visit-actions { display: flex; align-items: center; justify-content: center; gap: 1.5rem; }
+.visit-actions .dark-link { margin-top: 0; }
 
 /* Chef Raj history */
 .history-page { background: var(--cream); }
@@ -222,9 +220,9 @@ footer { display: grid; grid-template-columns: 1fr auto auto; gap: 2rem; align-i
   .visit-art { min-height: 340px; }
   .visit-art::before { width: 74%; }
   .visit-copy h2 { font-size: clamp(3.7rem,18vw,6rem); }
-  .visit-note { align-items: flex-start; flex-direction: column; gap: .3rem; }
+  .visit-note { margin-top: 1.5rem; }
   .mini-map { height: 230px; box-shadow: 7px 7px 0 var(--yellow); }
-  .visit-actions { align-items: flex-start; flex-direction: column; }
+  .visit-actions { align-items: center; flex-direction: column; }
   .history-hero { min-height: 780px; }
   .history-hero-image { background-position: 61% center; }
   .history-hero-overlay { background: linear-gradient(0deg, rgba(9,9,7,.96) 0%, rgba(9,9,7,.52) 66%, rgba(9,9,7,.2) 100%); }
